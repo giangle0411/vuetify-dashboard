@@ -45,17 +45,21 @@ export default {
     links: [
       {
         label: "Home",
-        url: "/",
+        url: "/"
       },
       {
         label: "Login",
-        url: "/login",
+        url: "/login"
+      },
+      {
+        label: "Signup",
+        url: "/signup"
       },
       {
         label: "Dashboard",
-        url: "/dashboard",
-      },
-    ],
-  }),
+        url: "/dashboard"
+      }
+    ]
+  })
 };
 </script>

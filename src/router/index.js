@@ -30,6 +30,11 @@ const routes = [
     name: "Dashboard",
     component: Dashboard,
   },
+  {
+    path: "/signup",
+    name: "signup",
+    component: () => import("../views/Signup.vue"),
+  },
 ];
 
 const router = new VueRouter({
